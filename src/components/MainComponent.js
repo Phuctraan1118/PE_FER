@@ -30,8 +30,6 @@ const mapDispatchToProps = dispatch => ({
 
 class Main extends Component {
 
-  //   super(props);
-  // }
 
   componentDidMount() {
     this.props.fetchDishes();
